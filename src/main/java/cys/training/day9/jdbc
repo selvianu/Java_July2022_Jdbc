@@ -1,0 +1,24 @@
+Create Table
+	+ Check Connection in jdbc
+Create POJO
+	+ model class
+	+ Constructors
+	+ toString
+	+ getters and setters
+	
+Create DAO 
+	+	Interface 
+		+	CRUD
+	+ InterfaceImpl Class
+		+ user connection object.
+		+ write query
+		+ Statement
+		+ placeholders
+		+ pass values to placeholders with statement objects using getters
+		+ Insert/update/delete - executeUpdate
+		+ Retrieve - executeQuery
+		
+Create Test Class
+	+ Create pojo object
+	+ set values
+	+ Test 	
